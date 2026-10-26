@@ -1,0 +1,35 @@
+{
+  "name": "xikota-design-cli",
+  "version": "0.1.0",
+  "description": "Official Xikota Design CLI for public API discovery and local project inquiry preparation.",
+  "type": "module",
+  "bin": {
+    "xikota-design": "bin/xikota-design.mjs"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "pack:release": "npm pack --pack-destination dist --json",
+    "test:contract": "node test/check-contract.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagoxikota/homebrew-xikota.git",
+    "directory": "cli"
+  },
+  "homepage": "https://xikota.design/docs#cli",
+  "bugs": {
+    "url": "https://github.com/thiagoxikota/homebrew-xikota/issues"
+  },
+  "author": "Xikota Design",
+  "license": "ISC",
+  "keywords": ["xikota-design", "cli", "openapi", "agents"]
+}
