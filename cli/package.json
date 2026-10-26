@@ -1,6 +1,6 @@
 {
   "name": "xikota-design-cli",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Official Xikota Design CLI for public API discovery and local project inquiry preparation.",
   "type": "module",
   "bin": {
@@ -31,5 +31,10 @@
   },
   "author": "Xikota Design",
   "license": "ISC",
-  "keywords": ["xikota-design", "cli", "openapi", "agents"]
+  "keywords": [
+    "xikota-design",
+    "cli",
+    "openapi",
+    "agents"
+  ]
 }

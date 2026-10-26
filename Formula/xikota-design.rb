@@ -1,9 +1,9 @@
 class XikotaDesign < Formula
   desc "Read the Xikota Design API and prepare project inquiries locally"
   homepage "https://xikota.design/docs#cli"
-  url "https://xikota.design/cli/xikota-design-cli-0.1.0.tgz"
-  version "0.1.0"
-  sha256 "64f4a1eabe47f4c36c5dc6c8d16313826a3dd8089e1bef928edda7148d37d110"
+  url "https://xikota.design/cli/xikota-design-cli-0.1.2.tgz"
+  version "0.1.2"
+  sha256 "1bb41236a405c7a458c3d42dd3b5195bd5a81ba496058ee755f1de22391d8c92"
   license "ISC"
 
   depends_on "node"

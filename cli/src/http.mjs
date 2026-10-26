@@ -37,7 +37,7 @@ async function boundedText(response) {
   } finally { reader.releaseLock(); }
 }
 
-export async function getPublic(baseUrl, path, { accept = 'application/json', timeout = 10000, version = '0.1.0' } = {}) {
+export async function getPublic(baseUrl, path, { accept = 'application/json', timeout = 10000, version = '0.1.2' } = {}) {
   let url = new URL(path, baseUrl);
   const signal = AbortSignal.timeout(timeout);
   try {

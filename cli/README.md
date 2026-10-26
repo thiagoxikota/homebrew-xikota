@@ -7,6 +7,20 @@ There are no runtime dependencies or install hooks.
 
 ## Install
 
+The official package is published on [npm](https://www.npmjs.com/package/xikota-design-cli).
+Run a pinned version without installing globally:
+
+```sh
+npx --yes xikota-design-cli@0.1.2 --help
+```
+
+Or install the CLI:
+
+```sh
+npm install --global xikota-design-cli@0.1.2
+xikota-design --help
+```
+
 Homebrew:
 
 ```sh
@@ -15,18 +29,10 @@ brew install thiagoxikota/xikota/xikota-design
 xikota-design --help
 ```
 
-Without installing globally, use the versioned package hosted by Xikota Design:
+The same version is also available as a package hosted by Xikota Design:
 
 ```sh
-npx --yes --package=https://xikota.design/cli/xikota-design-cli-0.1.0.tgz xikota-design --help
-```
-
-The package is distributed through the official Homebrew tap and the versioned
-download above. It is not currently published to the npm registry. To install
-the downloaded package with npm instead:
-
-```sh
-npm install --global https://xikota.design/cli/xikota-design-cli-0.1.0.tgz
+npx --yes --package=https://xikota.design/cli/xikota-design-cli-0.1.2.tgz xikota-design --help
 ```
 
 Source: [thiagoxikota/homebrew-xikota, cli directory](https://github.com/thiagoxikota/homebrew-xikota/tree/main/cli).
